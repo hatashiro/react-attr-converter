@@ -1,9 +1,9 @@
 'use strict';
 
-let map = require('./map');
+var map = require('./map');
 
-let convert = key => {
-  let val = map[key.toLowerCase()];
+var convert = function (key) {
+  var val = map[key.toLowerCase()];
   return val ? val : key;
 };
 
