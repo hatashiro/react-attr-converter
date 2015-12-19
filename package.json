@@ -1,6 +1,6 @@
 {
   "name": "react-attr-converter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert HTML attribute names to React props",
   "main": "index.js",
   "scripts": {
