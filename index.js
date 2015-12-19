@@ -3,7 +3,7 @@
 let map = require('./map');
 
 let convert = key => {
-  let val = map[key];
+  let val = map[key.toLowerCase()];
   return val ? val : key;
 };
 

@@ -238,6 +238,13 @@ test('convert supported attributes', t => {
   t.same(convert('onerror'), 'onError');
 });
 
+test('convert supported attributes with capital letters', t => {
+  t.same(convert('ACCEPT'), 'accept');
+  t.same(convert('ACTION'), 'action');
+  t.same(convert('classID'), 'classID');
+  t.same(convert('CLAss'), 'className');
+});
+
 test('bypass unsupported attributes', t => {
   t.same(convert('data-test'), 'data-test');
   t.same(convert('unsupported-attr'), 'unsupported-attr');
