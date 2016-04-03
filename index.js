@@ -1,6 +1,6 @@
 'use strict';
 
-var map = require('./map');
+var map = require('./map.json');
 
 var convert = function (key) {
   var val = map[key.toLowerCase()];
