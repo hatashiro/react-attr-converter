@@ -1,6 +1,6 @@
 {
   "name": "react-attr-converter",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Convert HTML attribute names to React props",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "attribute",
     "props"
   ],
-  "author": "Hyunje Alex Jun <me@noraesae.net> (http://noraesae.net/)",
+  "author": "Hyunje Jun <me@noraesae.net> (http://noraesae.net/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/noraesae/react-attr-converter/issues"
