@@ -442,11 +442,13 @@ const map = {
   onwheel: 'onWheel'
 };
 
+const extraCharRegex = /[-:]/g;
+
 const convert = attr => {
   if (/^(data-|aria-)/.test(attr)) {
     return attr;
   }
-  const key = attr.replace(/[-:]/g, '').toLowerCase();
+  const key = attr.replace(extraCharRegex, '').toLowerCase();
   return map[key] || attr;
 };
 
