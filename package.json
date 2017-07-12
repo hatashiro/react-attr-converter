@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/noraesae/react-attr-converter#readme",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "xo": "^0.12.1"
+    "ava": "^0.20.0",
+    "xo": "^0.18.2"
   },
   "xo": {
-    "space": true
+    "space": true,
+    "esnext": false
   }
 }

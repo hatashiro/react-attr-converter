@@ -2,7 +2,7 @@
 
 // Copied from https://facebook.github.io/react/docs/dom-elements.html
 var map = {
-  // specials
+  // Specials
   for: 'htmlFor',
   class: 'className',
 
@@ -372,7 +372,7 @@ var map = {
   z: 'z',
   zoomandpan: 'zoomAndPan',
 
-  // events
+  // Events
   onabort: 'onAbort',
   onanimationend: 'onAnimationEnd',
   onanimationiteration: 'onAnimationIteration',
