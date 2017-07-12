@@ -1,7 +1,7 @@
 'use strict';
 
 // Copied from https://facebook.github.io/react/docs/dom-elements.html
-const map = {
+var map = {
   // specials
   for: 'htmlFor',
   class: 'className',
@@ -442,13 +442,13 @@ const map = {
   onwheel: 'onWheel'
 };
 
-const extraCharRegex = /[-:]/g;
+var extraCharRegex = /[-:]/g;
 
-const convert = attr => {
+var convert = function (attr) {
   if (/^(data-|aria-)/.test(attr)) {
     return attr;
   }
-  const key = attr.replace(extraCharRegex, '').toLowerCase();
+  var key = attr.replace(extraCharRegex, '').toLowerCase();
   return map[key] || attr;
 };
 
