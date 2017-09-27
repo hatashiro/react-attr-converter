@@ -1,4 +1,4 @@
-# react-attr-converter [![travis-ci](https://travis-ci.org/noraesae/react-attr-converter.svg)](https://travis-ci.org/noraesae/react-attr-converter)
+# react-attr-converter [![travis-ci](https://travis-ci.org/utatti/react-attr-converter.svg)](https://travis-ci.org/utatti/react-attr-converter)
 
 Convert HTML attribute names to React props.
 
@@ -39,7 +39,7 @@ import * as convert from 'react-attr-converter'; // both of them work
 
 ## A bug!
 
-When a bug is found, please report them in [Issues](https://github.com/noraesae/react-attr-converter/issues).
+When a bug is found, please report them in [Issues](https://github.com/utatti/react-attr-converter/issues).
 
 Also, any form of contribution(especially a PR) will absolutely be welcomed :beers:
 

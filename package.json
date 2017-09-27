@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noraesae/react-attr-converter.git"
+    "url": "git+https://github.com/utatti/react-attr-converter.git"
   },
   "keywords": [
     "react",
@@ -18,9 +18,9 @@
   "author": "Hyunje Jun <me@noraesae.net> (http://noraesae.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noraesae/react-attr-converter/issues"
+    "url": "https://github.com/utatti/react-attr-converter/issues"
   },
-  "homepage": "https://github.com/noraesae/react-attr-converter#readme",
+  "homepage": "https://github.com/utatti/react-attr-converter#readme",
   "devDependencies": {
     "ava": "^0.20.0",
     "xo": "^0.18.2"
